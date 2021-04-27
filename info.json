@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "ea1e465c6e20cd372957ad4ad2dda5786efb3e88",
+    "author": "Mathew W. McLean <mathew.w.mclean@gmail.com>",
+    "time": "2021-04-27 01:04:13",
+    "files": 2,
+    "merge": false,
+    "message": "Add more retries for crossref unit test\n"
+  },
+  "remote": "https://github.com/ropensci/RefManageR",
+  "pkg": "RefManageR"
+}
