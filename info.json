@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "261980940c5c2200522b40f065c1ff8461bdf7cc",
+    "author": "Mathew W. McLean <mathew.w.mclean@gmail.com>",
+    "time": "2023-08-30 13:40:32",
+    "files": 1,
+    "merge": false,
+    "message": "Fix last commit: main should be v2\n"
+  },
+  "repo": "https://github.com/ropensci/RefManageR",
+  "pkg": "RefManageR"
+}
