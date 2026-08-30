@@ -1,0 +1,13 @@
+{
+  "commit": {
+    "commit": "d616da567dd8581adff235db3cd4ab766394736e",
+    "author": "Mathew W. McLean <mathew.w.mclean@gmail.com>",
+    "time": "2024-11-19T06:37:16Z",
+    "files": 16,
+    "merge": false,
+    "message": "Improve encoding non-ASCII characters to LaTeX in toBiblatex (#113)\n\n* Remove appveyor CI\n\nSigned-off-by: Mathew W. McLean <mathew.w.mclean@gmail.com>\n\n* Avoid msg about page numbers in ReadPDFs for 1page PDFs\n\n* Always use pdfinfo to determine number of pages in each PDF in ReadPDFs\neven when use.metadata is FALSE\n* This avoids a message from pdftotext about incorrect pages\n* Refactor test-readPDF.R to make it clearer when tests are skipped\nif poppler is not installed\n\nSigned-off-by: Mathew W. McLean <mathew.w.mclean@gmail.com>\n\n* Fix pkg documentation for latest roxygen2\n\nSigned-off-by: Mathew W. McLean <mathew.w.mclean@gmail.com>\n\n* Fixes for non-ASCII name list fields in toBiblatex and toBibtex\n\n* Add latexify() from dplR instead of tools::encoded_text_to_latex\nto improve conversion of non-ASCII characters to valid latex\n* Fixes #102, #105, #106\n\nSigned-off-by: Mathew W. McLean <mathew.w.mclean@gmail.com>\n\n* Update documentation for latexify author\n\nSigned-off-by: Mathew W. McLean <mathew.w.mclean@gmail.com>\n\n* Add website to DESCRIPTION\n\nSigned-off-by: Mathew W. McLean <mathew.w.mclean@gmail.com>\n\n* Use default value for rettype in ReadPubMed\n\n* c.f. https://www.ncbi.nlm.nih.gov/books/NBK25499/table/chapter4.T._valid_values_of__retmode_and/\n* Add mock response for one GetPubMedByID test\n\nSigned-off-by: Mathew W. McLean <mathew.w.mclean@gmail.com>\n\n* Add more sleep for PubMed/Entrez test\n\nSigned-off-by: Mathew W. McLean <mathew.w.mclean@gmail.com>\n\n---------\n\nSigned-off-by: Mathew W. McLean <mathew.w.mclean@gmail.com>"
+  },
+  "repo": "https://github.com/ropensci/RefManageR",
+  "pkg": "RefManageR",
+  "time": "2026-08-30T07:33:56Z"
+}

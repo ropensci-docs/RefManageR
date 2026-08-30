@@ -1,0 +1,10 @@
+pandoc: 3.8.3
+pkgdown: 2.2.1
+pkgdown_sha: ~
+articles:
+  TestAlphabetic: TestAlphabetic.html
+  TestRmd: TestRmd.html
+last_built: 2026-08-30T07:33Z
+urls:
+  reference: https://docs.ropensci.org/RefManageR/reference
+  article: https://docs.ropensci.org/RefManageR/articles
