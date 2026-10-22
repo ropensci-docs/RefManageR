@@ -1,0 +1,5 @@
+# License
+
+    YEAR: 2016
+    COPYRIGHT HOLDER: Mathew W. McLean
+    ORGANIZATION: University of Technology Sydney
